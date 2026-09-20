@@ -7,7 +7,7 @@
   "maturity": "S2",
   "executability": "E1",
   "status": "active",
-  "visibility": "private-draft",
+  "visibility": "public-experimental",
   "canonical_entry": "SEED.md",
   "human_entry": "README.md",
   "agent_entry": "AGENTS.md",

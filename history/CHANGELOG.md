@@ -25,6 +25,11 @@ All notable accepted changes to Seed S-0000 are recorded here. This file is not 
 - Seven reference tests pass on the external-volume installation.
 - The first portable ZIP snapshot contains the founding charter and excludes Git internals, Python caches, and AppleDouble metadata.
 
+### Clarified
+
+- The founding charter is living R&D material. Its planted state is preserved by Git, but the document may be edited and reorganized deliberately.
+- Repository state changed from private draft to public experimental; reuse licensing and contribution governance remain unresolved.
+
 ### Intentionally unresolved
 
 - public name and brand;

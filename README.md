@@ -14,7 +14,7 @@ This repository is both:
 
 That recursion is deliberate. The protocol must prove it can represent itself before it asks other ideas to use it.
 
-The original 147-section founding charter is preserved verbatim as [`seed_golden_repo.md`](seed_golden_repo.md). It is the source-of-origin, not disposable scaffolding. `SEED.md` is the distilled current Canon; the charter remains available whenever compression, interpretation, or missing nuance needs to be challenged.
+The original 147-section founding charter lives in [`seed_golden_repo.md`](seed_golden_repo.md). It is the source-of-origin and a living R&D document, not disposable scaffolding or immutable scripture. Git history preserves earlier forms while the charter, `SEED.md`, and the specification evolve for different purposes.
 
 ## Why this exists
 
@@ -61,7 +61,7 @@ seed-protocol/
 ├── AGENTS.md                 compatibility doorway for coding agents
 ├── BOOTSTRAP.md              deterministic orientation sequence
 ├── SEED.md                   canonical thesis and conceptual architecture
-├── seed_golden_repo.md       verbatim founding charter / origin source
+├── seed_golden_repo.md       living founding charter / origin source
 ├── context/                  principles, state, boundaries, questions, terms
 ├── decisions/                accepted choices and reversal conditions
 ├── challenges/               persistent attacks on the Seed

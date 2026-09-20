@@ -20,13 +20,13 @@ Subsequent turns introduced:
 
 The human then requested a detailed standalone package capable of surviving the loss of the original chat and intended to continue the work in Codex. This repository is the first implementation of that handoff.
 
-The owner placed that complete 147-section document into the working directory as `seed_golden_repo.md`. The file is preserved verbatim as the founding charter. It is intentionally not overwritten by the shorter canonical synthesis: the two artifacts serve different purposes.
+The owner placed that complete 147-section document into the working directory as `seed_golden_repo.md`. Its planted version is preserved by the initial Git commit. During R&D the charter may be edited, reorganized, or improved; the shorter canonical synthesis and the charter serve different purposes.
 
 - `seed_golden_repo.md` preserves the full source-of-origin and original conceptual coverage.
 - `SEED.md` expresses the current distilled Canon.
 - `spec/seed-protocol-v0.1-draft.md` expresses testable normative behavior.
 
-If the distilled Canon appears to lose a value, distinction, or unresolved tension, the founding charter is evidence for opening a Challenge or Decision—not a reason to edit history silently.
+If the distilled Canon appears to lose a value, distinction, or unresolved tension, the founding charter and its Git history are evidence for opening a Challenge or Decision—not a reason to rewrite history invisibly.
 
 ## Synthesis
 

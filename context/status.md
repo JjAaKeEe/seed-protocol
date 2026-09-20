@@ -4,7 +4,7 @@
 **Protocol:** 0.1-draft  
 **Maturity:** S2 — Developed Seed  
 **Executability:** E1 — Queryable / bootable  
-**State:** active, private draft  
+**State:** active, public experimental draft  
 **Last meaningful update:** 2026-09-20
 
 ## Completed in this iteration
@@ -27,7 +27,7 @@
 - The file structure is provisional.
 - The protocol has not demonstrated cross-domain generality.
 - Agent bootability has only structural tests, not independent model evaluations.
-- No public governance or licensing choice has been made.
+- The repository is public, but no reuse license or public governance choice has been made.
 - No Seed Commons product has been specified beyond conceptual direction.
 
 ## Active workfronts

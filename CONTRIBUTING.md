@@ -1,6 +1,6 @@
 # Contributing to the Seed Protocol draft
 
-This repository is not yet open for public contribution because its license and governance are unresolved. This guide describes the intended contribution model so it can be tested locally.
+This repository is publicly visible but not yet open for outside contributions because its license and governance are unresolved. This guide describes the intended contribution model so it can be inspected and tested locally.
 
 ## Ways to contribute
 
@@ -56,4 +56,3 @@ python3 -m unittest discover -s tests -v
 ```
 
 Then update the status and changelog if the accepted state changed.
-
