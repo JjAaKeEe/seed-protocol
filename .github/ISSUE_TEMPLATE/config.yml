@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask or explore in Discussions
+    url: https://github.com/JjAaKeEe/seed-protocol/discussions
+    about: Use Discussions for early questions, incomplete ideas, or offers of expertise.
+  - name: Find a Quest
+    url: https://github.com/JjAaKeEe/seed-protocol/blob/main/docs/FIND-A-QUEST.md
+    about: Choose a bounded contribution matched to difficulty and expertise.
+

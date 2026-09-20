@@ -1,121 +1,277 @@
-# Seed Protocol — S-0000 “The Golden Seed”
+# Seed Protocol
 
-> A portable unit of human intent that people and intelligent agents can understand, challenge, extend, and hand onward without requiring its creator or originating conversation.
+> A portable way to help an idea survive its original person, conversation, AI model, and software platform.
 
-**Status:** experimental foundation  
-**Maturity:** S2 — Developed Seed  
-**Machine executability:** E1 — Queryable and agent-bootable  
-**Protocol version:** 0.1-draft
+`S2 · E1 · Seed Protocol 0.1-draft · public experiment`
 
-This repository is both:
+People produce strange, useful ideas constantly—in conversations, notebooks, workshops, field observations, and AI chats. Most disappear. Others survive as scattered notes or enormous transcripts that nobody new can reliably enter.
 
-1. the first implementation of Seed Protocol; and
-2. the Seed that defines Seed Protocol.
+Seed Protocol asks:
 
-That recursion is deliberate. The protocol must prove it can represent itself before it asks other ideas to use it.
+> **What is the smallest durable package that lets an unfamiliar human or capable AI understand an idea, see what remains uncertain, challenge it, and continue the work?**
 
-The 147-section outline in [`seed_golden_repo.md`](seed_golden_repo.md) is the constitutional shell and principal long-form authoring surface. It was planted intentionally incomplete so humans and agents can populate every section, rewrite weak passages, add diagrams and charts, introduce new sections, reorganize the structure, and deepen the doctrine through R&D. Git preserves earlier forms; it does not freeze the shell.
+This repository is **Seed S-0000**, the Golden Seed. It defines Seed Protocol while using the protocol to describe itself. That recursion is deliberate: the protocol must show that it can preserve, route, question, and revise its own intent before asking other ideas to use it.
 
-The three root documents have different jobs:
+## Choose your entrance
 
-- `seed_golden_repo.md` is the expanding constitution and full design corpus.
-- `SEED.md` is the concise current synthesis used for orientation.
-- `spec/seed-protocol-v0.1-draft.md` defines testable protocol behavior.
-
-## Why this exists
-
-Interesting ideas emerge in conversation, work, journals, field observations, sketches, and AI sessions. Most are either forced prematurely into projects or allowed to disappear. Seed Protocol creates a third path: develop an idea only far enough that it becomes durable, legible, challengeable, and transferable.
-
-A Seed is not necessarily a company, repo, paper, specification, or project. It is the persistent intellectual chassis beneath any of those forms.
-
-## Begin here
-
-For a human:
-
-1. Read [SEED.md](SEED.md) for the canonical concept.
-2. Read [context/principles.md](context/principles.md) for the constitutional commitments.
-3. Read [context/status.md](context/status.md) for the live state and next work.
-4. Read [context/questions.md](context/questions.md) to find useful unresolved problems.
-
-For an AI agent:
-
-1. Read [SEED.yaml](SEED.yaml).
-2. Follow [AGENTS.md](AGENTS.md).
-3. Execute the orientation sequence in [BOOTSTRAP.md](BOOTSTRAP.md).
-4. Load only task-relevant deeper context.
-5. Leave the Seed at least as bootable as you found it.
-
-## Core model
-
-Every mature Seed separates four strata:
-
-| Stratum | Purpose |
+| Human entry | Agent entry |
 |---|---|
-| **Canon** | The currently accepted state from which work proceeds. Canon is authoritative, not infallible. |
-| **Workspace** | Drafts, branches, hypotheses, proposed changes, and other places where participants may be wrong safely. |
-| **Evidence** | Sources, observations, experiments, calculations, simulations, and artifacts. |
-| **History** | Version change, decision rationale, intellectual provenance, rejected paths, and failures. |
+| Start with [`START-HERE.md`](START-HERE.md). It routes beginners, experts, skeptics, and contributors without requiring Git knowledge. | Start with [`AGENTS.md`](AGENTS.md), then follow [`BOOTSTRAP.md`](BOOTSTRAP.md). Load deeper context only when the task requires it. |
 
-Seed Protocol also treats Questions, Decisions, Challenges, Experiments, and Failures as durable objects. A useful attack on the Seed can be more valuable than support for it.
+If you have one minute, read [Seed Protocol in 60 seconds](docs/SEED-IN-60-SECONDS.md).
+
+If you already see a weakness, [attack the Seed](docs/ATTACK-THE-SEED.md).
+
+If you want one bounded piece of useful work, [find a Quest](docs/FIND-A-QUEST.md).
+
+## A Seed in one example
+
+Imagine someone notices that cities repeatedly destroy long-lived streets to replace short-lived pipes and cables. The first thought is only a Spark:
+
+> Put replaceable utilities somewhere accessible.
+
+A Seed develops that thought just enough for someone else to continue:
+
+```text
+MISSION       Reduce destructive utility repairs.
+PRINCIPLE     Short-lived systems should not destroy long-lived structure.
+ASSUMPTION    Accessible service corridors can be economical at useful scale.
+EVIDENCE      Existing utility tunnels, maintenance records, lifecycle costs.
+QUESTION      At what density does the approach become worthwhile?
+CHALLENGE     Corridors may concentrate fire, flood, and security risk.
+EXPERIMENT    Compare 100-year lifecycle costs across three street types.
+DECISION      Adopt only where inspection and isolation outperform burial.
+HANDOFF       Clear work for an engineer, economist, resident, or agent.
+```
+
+The Seed does not make the idea true. It makes the idea **legible, attackable, and transferable**.
+
+## The human–machine loop
+
+```mermaid
+flowchart LR
+    A[Human intent] --> B[Portable Seed]
+    B --> C[Human inquiry]
+    B --> D[Agent inquiry]
+    C --> E[Challenges, experiments, evidence]
+    D --> E
+    E --> F[Review and judgment]
+    F --> G[Revised, forked, dormant, or retired Seed]
+    G --> B
+```
+
+Text alternative: human intent enters a persistent Seed; humans and agents investigate it; review turns evidence into revision, a fork, dormancy, or retirement; the Seed remains the durable participant.
+
+Humans disproportionately contribute meaning, values, embodied experience, unusual questions, taste, judgment, and purpose. Machines increasingly contribute search, breadth, memory, formalization, simulation, coordination, repetition, and tool use.
+
+The Seed is an interface between those abilities. It should preserve enough human intent that optimization does not silently replace the reason the idea mattered.
+
+## What lives inside a Seed?
+
+A mature Seed distinguishes four kinds of state:
+
+```mermaid
+flowchart TB
+    C["CANON<br/>accepted working state"]
+    W["WORKSPACE<br/>drafts, alternatives, hypotheses"]
+    E["EVIDENCE<br/>sources, observations, tests"]
+    H["HISTORY<br/>versions, decisions, provenance, failures"]
+    W -->|tested by| E
+    E -->|review gate| C
+    C -->|challenged through| W
+    C --> H
+    W --> H
+    E --> H
+```
+
+Text alternative: Workspace ideas are tested against Evidence; reviewed results may enter Canon; accepted state can be challenged again; all meaningful changes remain in History.
+
+- **Canon** is the accepted state used to coordinate work. It is challengeable and is not synonymous with truth.
+- **Workspace** is where humans and agents can be wrong safely.
+- **Evidence** supports, weakens, or contextualizes claims.
+- **History** preserves what changed, why it changed, where ideas came from, and what failed.
+
+Questions, Decisions, Challenges, Experiments, assumptions, failures, provenance, and authority boundaries become explicit when the Seed needs them. They are tools for transfer—not paperwork that every lunch thought must complete.
+
+## What makes this different from a repository or knowledge base?
+
+A repository stores files. A knowledge base stores information. A Seed tries to preserve an idea’s **initiation state**:
+
+- why it exists;
+- what matters and must not be optimized away;
+- what is accepted versus speculative;
+- what has already been learned;
+- what could prove it wrong;
+- what work remains;
+- what an agent may and may not do;
+- how the next participant leaves it bootable.
+
+GitHub is a useful first substrate because it provides history, forks, issues, review, and public collaboration. It is not part of the protocol. A valid Seed might later live in another forge, an archive, a folder, an MCP resource, or media that does not yet exist.
+
+## Maturity is not machine authority
+
+Seed Protocol tracks two independent dimensions.
+
+**Maturity (`S0–S6`)** runs from a raw Spark through a developed, researched, tested, validated, and operating system.
+
+**Executability (`E0–E6`)** runs from machine-readable through queryable, researchable, simulatable, experimentable, fabricable, and operational.
+
+A sophisticated idea can remain non-executable. A rough idea can have executable experiments. Neither scale grants permission.
+
+> **Knowledge of a Seed does not confer authority over its contributors, external systems, money, machines, or the physical world.**
+
+Permission to research does not imply permission to contact people. Simulation does not authorize experimentation. Fabrication does not authorize deployment. The current authority boundary is documented in [`context/authority.md`](context/authority.md).
+
+## Attack the Seed
+
+The protocol begins from assumed incompleteness: every model captures only part of reality. Mature Seeds must invite attacks against their evidence, assumptions, incentives, decisions, and even the categories used to frame the problem.
+
+```mermaid
+flowchart LR
+    A[Assumption or Decision] --> C[Challenge]
+    C --> X[Experiment or investigation]
+    X --> E[Evidence]
+    E --> R{Review}
+    R -->|retain| K[Retain]
+    R -->|revise| V[Revise]
+    R -->|reject| J[Retire]
+    K --> H[Preserve history]
+    V --> H
+    J --> H
+```
+
+Text alternative: a claim is challenged and investigated; review may retain, revise, or retire it; every outcome and failure remains inspectable.
+
+The project already carries foundational Challenges:
+
+- the universal Seed object may be too general to help;
+- structure may kill the spontaneous practice it serves;
+- gamification may corrupt purpose;
+- distillation may erase the meaning it intends to preserve.
+
+Read the [current attack surface](challenges/README.md) or [open a new attack](docs/ATTACK-THE-SEED.md). Discovering that this protocol is unnecessary or badly framed is a valid successful outcome.
+
+## Find a Quest
+
+Contribution should be easier than membership. A person should be able to resolve one useful question and leave without joining an organization.
+
+Quests are bounded work labeled from **D1 Curiosity** to **D5 Frontier**. Current entry points include:
+
+- report the first confusing moment in the README;
+- propose a small contrast Seed unlike Project Lithos;
+- identify a behavior that should never be scored;
+- test cold-start orientation in another agent environment;
+- compare the protocol with prior work;
+- attack a foundational assumption with evidence.
+
+Experts can move directly to questions about epistemology, archives, governance, security, agent authority, or cross-domain generality. See [Find a Quest](docs/FIND-A-QUEST.md) for effort, expertise, and evidence expectations.
+
+## Current state—without the sales pitch
+
+What exists:
+
+- a self-describing manifest and routed context;
+- 27 constitutional principles;
+- a concise Canon and expandable long-form constitutional shell;
+- explicit Decisions, Challenges, Questions, and Experiments;
+- a minimal reusable Seed template;
+- a zero-dependency CLI for initialization, validation, status, boot packets, and snapshots;
+- seven passing structural tests.
+
+What does **not** exist or has not been established:
+
+- an accepted standard;
+- proof that the grammar generalizes across domains;
+- independent semantic cold-start results;
+- a Seed Commons application;
+- a settled governance system;
+- safe machinery or autonomous-agent execution infrastructure;
+- evidence that motivation mechanics improve contribution;
+- a demonstration that a Seed can survive years of dormancy.
+
+The current model also underrepresents oral tradition, tacit knowledge, embodied apprenticeship, indigenous knowledge practices, cultures with different concepts of authorship, accessibility, multilingual use, conflict resolution, privacy-preserving provenance, and physical safety. Read the complete [`context/model-boundary.md`](context/model-boundary.md).
+
+## Three layers, three jobs
+
+The 147-section [`seed_golden_repo.md`](seed_golden_repo.md) is the expandable constitutional shell and long-form R&D corpus. It was intentionally planted incomplete. Humans and agents may populate sections, rewrite weak passages, add diagrams, reorganize material, and introduce new sections. Git preserves earlier forms; it does not freeze the shell.
+
+The root documents have different jobs:
+
+| Layer | Purpose |
+|---|---|
+| [`seed_golden_repo.md`](seed_golden_repo.md) | Expanding constitution, source-of-origin, and full design corpus |
+| [`SEED.md`](SEED.md) | Concise current synthesis and Canon |
+| [`spec/seed-protocol-v0.1-draft.md`](spec/seed-protocol-v0.1-draft.md) | Testable normative protocol behavior |
+
+Material divergence should become visible through history, a Decision, or a Challenge—not hidden by silent compression.
 
 ## Repository map
 
 ```text
 seed-protocol/
-├── README.md                 human doorway
-├── SEED.yaml                 machine-readable passport
-├── AGENTS.md                 compatibility doorway for coding agents
+├── README.md                 public front door
+├── START-HERE.md             human routing layer
+├── AGENTS.md                 compatibility doorway for agents
 ├── BOOTSTRAP.md              deterministic orientation sequence
-├── SEED.md                   canonical thesis and conceptual architecture
-├── seed_golden_repo.md       expandable constitutional shell and full corpus
+├── SEED.yaml                 machine-readable identity and routing
+├── SEED.md                   concise Canon
+├── seed_golden_repo.md       expandable constitutional corpus
+├── docs/                     explanations, Quests, attacks, design language
 ├── context/                  principles, state, boundaries, questions, terms
 ├── decisions/                accepted choices and reversal conditions
-├── challenges/               persistent attacks on the Seed
-├── experiments/              tests and their evidence
-├── spec/                     normative draft specification
-├── templates/minimal-seed/   smallest practical reusable Seed
-├── tools/seed.py             zero-dependency reference CLI
-├── tests/                    executable protocol checks
-└── history/                  changelog and provenance
+├── challenges/               durable attacks on the Seed
+├── experiments/              methods, observations, and results
+├── spec/                     normative draft
+├── templates/minimal-seed/   smallest reusable starting point
+├── tools/                    zero-dependency reference CLI
+├── tests/                    structural tests
+└── history/                  provenance, changelog, validation reports
 ```
 
-## Try the reference implementation
+## Local reference tools
 
-No third-party Python packages are required.
+No dependency installation is required.
 
 ```sh
 python3 tools/seed.py validate .
 python3 tools/seed.py status .
 python3 tools/seed.py boot .
+python3 tools/seed.py snapshot . --output ./dist
 python3 -m unittest discover -s tests -v
 ```
 
-Create a new local Seed from the minimal template:
+Validation checks structure and references. It does not certify that claims are true.
 
-```sh
-python3 tools/seed.py init ../my-seed --id seed:my-seed --title "My Seed"
-```
+## Ways to enter
 
-Create a durable ZIP snapshot:
+### I am new to this
 
-```sh
-python3 tools/seed.py snapshot .
-```
+Read [`START-HERE.md`](START-HERE.md), then the [60-second explanation](docs/SEED-IN-60-SECONDS.md). Report confusion; fresh-reader friction is evidence.
 
-## What this draft intentionally does not build
+### I have domain expertise
 
-This repository does not yet contain a social network, knowledge graph, vector database, reputation economy, agent marketplace, token system, or polished web application. Those may eventually become useful. Building them before the Seed object survives real use would freeze guesses into infrastructure.
+Go to [Find a Quest](docs/FIND-A-QUEST.md), locate a question matching your field, and contribute one observation, source, counterexample, or test. You do not need to understand the whole repository.
 
-The immediate experiment is smaller: can unfamiliar humans and agents cold-start the same idea, understand its uncertainty and authority boundaries, contribute without creator assistance, and leave a better handoff?
+### I am skeptical
 
-## Safety and authority
+Good. Read [Attack the Seed](docs/ATTACK-THE-SEED.md) and the [`challenges/`](challenges/README.md) index. Attack the strongest relevant claim rather than a weaker slogan.
 
-A Seed can describe action without authorizing action. Research permission never implies permission to purchase, communicate externally, fabricate, operate equipment, or affect a physical system. See [context/authority.md](context/authority.md).
+### I am an agent or agent builder
+
+Follow [`AGENTS.md`](AGENTS.md) and [`BOOTSTRAP.md`](BOOTSTRAP.md). Preserve uncertainty, respect authority boundaries, load task-relevant context, and leave a durable handoff instead of only a chat transcript.
+
+### I want to contribute without code
+
+Read [`CONTRIBUTING.md`](CONTRIBUTING.md). GitHub Discussions, issue forms, documentation review, prior art, Challenges, and field observations are all legitimate routes.
 
 ## Licensing
 
-Licensing is deliberately unresolved in this private draft. No public contribution should be solicited until documentation, software, data, and media licenses are chosen explicitly. See [LICENSE.md](LICENSE.md) and [decisions/D-0004-licensing-remains-open.md](decisions/D-0004-licensing-remains-open.md).
+Software and executable tooling are licensed under the Apache License 2.0. Prose, documentation, diagrams, data, and media are licensed under Creative Commons Attribution 4.0 unless an artifact says otherwise. See [`LICENSE.md`](LICENSE.md) for the mapping and attribution guidance.
 
-## The present test
+## The governing test
 
-The next important act is not to expand this doctrine. It is to attack it with real Seeds. Project Lithos is the likely first complex reference case; a sharply different creative or software Seed should follow so the protocol does not overfit research-heavy systems thinking.
+The project succeeds only if the Seed becomes independent enough that its creator is no longer required for the idea to continue becoming.
+
+That claim is still a hypothesis.
+
+Start by [understanding it](START-HERE.md), [finding useful work](docs/FIND-A-QUEST.md), or [trying to break it](docs/ATTACK-THE-SEED.md).

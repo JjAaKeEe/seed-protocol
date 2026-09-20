@@ -1,0 +1,26 @@
+name: First contribution
+description: Offer one useful observation or ask for help finding a bounded task.
+title: "[First contribution] "
+labels: ["first-contribution"]
+body:
+  - type: dropdown
+    id: contribution
+    attributes:
+      label: What would you like to contribute?
+      options: [Fresh-reader feedback, Domain knowledge, Research or evidence, Design or writing, Agent testing, Red teaming, Help choosing a Quest]
+    validations: {required: true}
+  - type: textarea
+    id: context
+    attributes:
+      label: What you noticed or know
+    validations: {required: true}
+  - type: input
+    id: time
+    attributes:
+      label: Available time (optional)
+      placeholder: 20 minutes, two hours, one-time answer
+  - type: textarea
+    id: help
+    attributes:
+      label: What would make contributing easier?
+

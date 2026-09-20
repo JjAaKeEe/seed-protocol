@@ -1,0 +1,27 @@
+name: Documentation
+description: Report confusion, a broken path, accessibility trouble, or a documentation improvement.
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page or location
+      placeholder: File, heading, link, or URL
+    validations: {required: true}
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include what you expected and what was confusing or broken.
+    validations: {required: true}
+  - type: dropdown
+    id: reader
+    attributes:
+      label: Which reader path were you following?
+      options: [Newcomer, Domain expert, Contributor, Skeptic, Agent builder, Other]
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+
