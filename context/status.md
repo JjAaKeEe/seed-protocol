@@ -20,6 +20,8 @@
 - Validated the corpus in its target repository on the external volume.
 - Passed all seven reference tests, including initialization, path containment, boot routing, and portable snapshot creation.
 - Generated the first clean portable snapshot with the constitutional shell included and platform metadata excluded.
+- Added progressive human and agent entry paths, an explicit attack surface, bounded Quests, and structured public contribution forms.
+- Adopted Apache-2.0 for software and CC BY 4.0 for knowledge and media, subject to later legal review.
 
 ## Current claims
 
@@ -27,7 +29,7 @@
 - The file structure is provisional.
 - The protocol has not demonstrated cross-domain generality.
 - Agent bootability has only structural tests, not independent model evaluations.
-- The repository is public, but no reuse license or public governance choice has been made.
+- The repository is public and has explicit reuse licenses; long-term public governance remains unresolved.
 - No Seed Commons product has been specified beyond conceptual direction.
 
 ## Active workfronts
@@ -37,7 +39,7 @@
 3. Convert Project Lithos into a reference Seed.
 4. Convert one unlike project, preferably a small creative or software Seed.
 5. Compare friction and remove unnecessary ceremony.
-6. Decide licensing and initial public governance before accepting outside contributions.
+6. Test the dual-license explanation and decide initial public governance before mature Canon stewardship is delegated.
 
 ## Highest risks
 
@@ -51,8 +53,7 @@
 ## Blocked or awaiting human judgment
 
 - Final project and organization name.
-- Documentation and code licenses.
-- Whether and when this draft should be published.
+- Legal review of the documentation, software, data, and media license mapping.
 - Initial Canon stewardship model.
 - Selection of the non-Lithos contrast Seed.
 

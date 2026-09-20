@@ -40,6 +40,8 @@ The AI contributions are synthesis and implementation work, not evidence that th
 
 The original conversation is source material, not Canon. It may contain unverified facts, obsolete references, private context, repetition, and exploratory statements. This corpus preserves the conceptual state needed to continue while deliberately omitting most conversational detail.
 
+The public repository experience pass was directed by the human owner after reviewing the initial live repository. Codex synthesized and implemented the documentation architecture, diagrams, contribution routes, licensing map, and validation artifacts. Rainier Dynamics source material was consulted only for discovery; Seed Protocol intentionally retains an independent identity and no Rainier brand assets were incorporated.
+
 The constitutional shell is both source material and active R&D territory. It is authoritative about origin and intent only where explicitly stated; its structure, prose, diagrams, proposals, and omissions remain challengeable.
 
 ## Attribution caveat

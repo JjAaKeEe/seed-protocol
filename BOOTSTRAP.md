@@ -17,7 +17,7 @@ The strongest future form is not merely a document. It is an initiation state fr
 - This repository is the first self-hosting reference Seed.
 - The manifest, bootstrap, context layers, decision/challenge records, minimal template, and reference CLI now exist.
 - No external compatibility claims have been validated.
-- No license has been selected.
+- Software is licensed under Apache-2.0; knowledge and media are licensed under CC BY 4.0 unless declared otherwise.
 - No public community or Seed Commons platform exists.
 - Project Lithos is the planned first complex external reference Seed.
 
@@ -60,6 +60,8 @@ Load in this order unless the task clearly requires another path:
 | Test evidence | matching file in `experiments/` |
 | Origin and attribution | `history/PROVENANCE.md` |
 | Expandable constitutional shell and full corpus | `seed_golden_repo.md` |
+| Public reader paths and contribution | `START-HERE.md` and `CONTRIBUTING.md` |
+| License mapping | `LICENSE.md` |
 
 ## 6. Known enough to rely upon
 

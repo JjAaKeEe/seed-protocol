@@ -59,10 +59,11 @@
     "physical_actuation": "approval-required"
   },
   "license": {
-    "documentation": "UNDECIDED",
-    "software": "UNDECIDED",
-    "data": "UNDECIDED",
-    "media": "UNDECIDED"
+    "documentation": "CC-BY-4.0",
+    "software": "Apache-2.0",
+    "data": "CC-BY-4.0",
+    "media": "CC-BY-4.0",
+    "mapping": "LICENSE.md"
   },
   "parents": [],
   "derivatives": [],
