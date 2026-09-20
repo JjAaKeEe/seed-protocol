@@ -22,6 +22,8 @@ All notable accepted changes to Seed S-0000 are recorded here. This file is not 
 - eight structured GitHub issue forms and a routed contribution experience;
 - Apache-2.0 and CC BY 4.0 license texts with an explicit artifact mapping;
 - Decisions D-0007 and D-0008 for public-experience architecture and dual licensing.
+- Experiment X-0003, four-lens red-team findings, and a dated validation report.
+- Public welcome, attack, and contribution-matching Discussions.
 
 ### Verified
 

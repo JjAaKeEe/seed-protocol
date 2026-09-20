@@ -22,6 +22,8 @@
 - Generated the first clean portable snapshot with the constitutional shell included and platform metadata excluded.
 - Added progressive human and agent entry paths, an explicit attack surface, bounded Quests, and structured public contribution forms.
 - Adopted Apache-2.0 for software and CC BY 4.0 for knowledge and media, subject to later legal review.
+- Completed internal Experiment X-0003 and its four-lens red team; independent timed reader testing remains open.
+- Published welcome, attack, and contribution-matching Discussions.
 
 ## Current claims
 
@@ -59,7 +61,7 @@
 
 ## Next useful action
 
-Run Experiment X-0001 with at least two unfamiliar agent environments. Give each only the repository and ask for a structured orientation report. Compare their answers against the rubric without revealing the original conversation.
+Publish and render-check the experience-pass pull request, then run Experiment X-0001 with at least two unfamiliar agent environments. Give each only the repository and ask for a structured orientation report without revealing the original conversation.
 
 ## Handoff
 
