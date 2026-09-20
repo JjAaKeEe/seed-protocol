@@ -2031,13 +2031,28 @@ Do not overdesign the schema before dogfooding it.
 
 `README.md` is the front door.
 
-A reader should understand in minutes:
+A public Seed should support progressive entry rather than asking every reader to absorb the entire corpus. The S-0000 reference experience uses four time horizons:
+
+| Time | Intended outcome |
+|---|---|
+| 30 seconds | Accurate curiosity: the reader can state what problem the Seed addresses. |
+| 3 minutes | Comprehension: the reader understands the Seed object and its experimental state. |
+| 10 minutes | Traction: the reader can reach Canon, a Quest, an attack path, or an agent boot route. |
+| 20 minutes | Contribution: the reader can choose a useful action suited to experience and available time. |
+
+The public front door should reveal, in roughly this order:
 
 - what this is;
 - why it exists;
+- one concrete example;
 - current maturity;
-- where to start;
-- what help is wanted.
+- evidence limits and active Challenges;
+- distinct human and agent entrances;
+- where to start and what help is wanted.
+
+`START-HERE.md` is the human routing layer. Focused documents may then explain the Seed quickly, show how it works, expose its attack surface, and match contributors to bounded Quests. These are experience adapters, not mandatory protocol-core objects.
+
+The design goal is not frictionless agreement. It is low-friction accurate orientation.
 
 ---
 
@@ -2192,6 +2207,21 @@ Platform second.
 # 112. Public Experience
 
 Seed Commons should feel like entering an intellectual workshop, not a source-code hosting service.
+
+Before a dedicated platform exists, the public repository must demonstrate that experience using ordinary portable files and the collaboration surfaces already available. The reference design follows several rules:
+
+- monochrome-first and understandable without decorative assets;
+- research status instead of product theater;
+- plain-language routes for newcomers without hiding expert depth;
+- an explicit Human Entry / Agent Entry motif;
+- visible uncertainty and model boundaries;
+- contribution without required membership;
+- challenge and falsification as prominent as expansion;
+- navigation that survives copying, printing, and platform change.
+
+The aesthetic shorthand is **1994 research laboratory × 2035 interaction design**: durable, quiet, inspectable, and forward-looking without futurist spectacle.
+
+Every diagram should carry a text alternative. Color, position, badges, or iconography must not be the sole carriers of meaning.
 
 Possible interface:
 
@@ -2622,6 +2652,15 @@ Different artifact classes may need different licenses:
 
 Seed Protocol should require clarity, not prescribe one universal license.
 
+For the S-0000 public reference repository, the initial mapping is:
+
+- Apache License 2.0 for software, executable tooling, tests, and reusable code;
+- Creative Commons Attribution 4.0 International for prose, documentation, specifications, descriptive data, diagrams, and media unless an artifact declares otherwise.
+
+This is a repository Decision, not a universal protocol requirement. Hardware designs, substantial datasets, third-party assets, trademarks, private provenance, and patent-sensitive work may require different declarations or legal review.
+
+A public Seed must not use visibility as a substitute for permission.
+
 ---
 
 # 135. Privacy
@@ -2750,6 +2789,7 @@ Suggested first structure:
 seed-protocol/
 │
 ├── README.md
+├── START-HERE.md
 ├── SEED.yaml
 ├── SEED.md
 ├── BOOTSTRAP.md
@@ -2768,6 +2808,13 @@ seed-protocol/
 │
 ├── experiments/
 │
+├── docs/
+│   ├── SEED-IN-60-SECONDS.md
+│   ├── HOW-SEEDS-WORK.md
+│   ├── ATTACK-THE-SEED.md
+│   ├── FIND-A-QUEST.md
+│   └── DESIGN-LANGUAGE.md
+│
 ├── spec/
 │   └── seed-protocol-v0.1.md
 │
@@ -2775,6 +2822,9 @@ seed-protocol/
 │   └── minimal-seed/
 │
 ├── tools/
+│
+├── LICENSE.md
+├── LICENSES/
 │
 └── history/
     └── CHANGELOG.md

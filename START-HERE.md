@@ -11,6 +11,7 @@ Choose the route that matches what you want to do:
 | Find one useful contribution | [`docs/FIND-A-QUEST.md`](docs/FIND-A-QUEST.md) |
 | Find a weakness or argue against it | [`docs/ATTACK-THE-SEED.md`](docs/ATTACK-THE-SEED.md) |
 | Contribute without writing code | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+| Join an exploratory conversation | [`docs/COMMUNITY.md`](docs/COMMUNITY.md) |
 | Boot an AI agent into the project | [`AGENTS.md`](AGENTS.md), then [`BOOTSTRAP.md`](BOOTSTRAP.md) |
 | Read the concise current Canon | [`SEED.md`](SEED.md) |
 | Read or expand the long-form constitution | [`seed_golden_repo.md`](seed_golden_repo.md) |

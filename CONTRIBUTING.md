@@ -10,6 +10,8 @@ Read [`START-HERE.md`](START-HERE.md), then choose a D1 or D2 task from [Find a 
 
 No command line is required. Use a GitHub Discussion or the **First contribution** issue form.
 
+The [community map](docs/COMMUNITY.md) links the welcome, attack, and contribution-matching Discussions.
+
 ### Domain expert
 
 You do not need to learn the entire protocol. Find a Question matching your expertise, state the limits of your claim, and provide a source, field observation, counterexample, or decision pattern. It is acceptable to contribute once and leave.
