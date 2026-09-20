@@ -20,13 +20,13 @@ Subsequent turns introduced:
 
 The human then requested a detailed standalone package capable of surviving the loss of the original chat and intended to continue the work in Codex. This repository is the first implementation of that handoff.
 
-The owner placed that complete 147-section document into the working directory as `seed_golden_repo.md`. Its planted version is preserved by the initial Git commit. During R&D the charter may be edited, reorganized, or improved; the shorter canonical synthesis and the charter serve different purposes.
+The owner placed a 147-section constitutional shell into the working directory as `seed_golden_repo.md`. The outline contains substantial originating material but was always intended to be populated and built out completely with human and agent collaboration. Its planted version is preserved by the initial Git commit. During R&D it may be rewritten, expanded, illustrated, reorganized, split, or extended with new sections.
 
-- `seed_golden_repo.md` preserves the full source-of-origin and original conceptual coverage.
+- `seed_golden_repo.md` is the expanding constitutional corpus and preserves the source-of-origin through its history.
 - `SEED.md` expresses the current distilled Canon.
 - `spec/seed-protocol-v0.1-draft.md` expresses testable normative behavior.
 
-If the distilled Canon appears to lose a value, distinction, or unresolved tension, the founding charter and its Git history are evidence for opening a Challenge or Decision—not a reason to rewrite history invisibly.
+If the distilled Canon appears to lose a value, distinction, or unresolved tension, the constitutional shell and its Git history are evidence for opening a Challenge or Decision—not a reason to rewrite history invisibly.
 
 ## Synthesis
 
@@ -40,7 +40,7 @@ The AI contributions are synthesis and implementation work, not evidence that th
 
 The original conversation is source material, not Canon. It may contain unverified facts, obsolete references, private context, repetition, and exploratory statements. This corpus preserves the conceptual state needed to continue while deliberately omitting most conversational detail.
 
-The founding charter is also source material rather than immutable doctrine. It is authoritative about origin and intent, but its implementation proposals remain challengeable.
+The constitutional shell is both source material and active R&D territory. It is authoritative about origin and intent only where explicitly stated; its structure, prose, diagrams, proposals, and omissions remain challengeable.
 
 ## Attribution caveat
 

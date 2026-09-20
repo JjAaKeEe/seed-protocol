@@ -19,7 +19,7 @@
 - Added automated structural tests.
 - Validated the corpus in its target repository on the external volume.
 - Passed all seven reference tests, including initialization, path containment, boot routing, and portable snapshot creation.
-- Generated the first clean portable snapshot with the founding charter included and platform metadata excluded.
+- Generated the first clean portable snapshot with the constitutional shell included and platform metadata excluded.
 
 ## Current claims
 
@@ -33,10 +33,11 @@
 ## Active workfronts
 
 1. Perform the first independent cold-start experiment.
-2. Convert Project Lithos into a reference Seed.
-3. Convert one unlike project, preferably a small creative or software Seed.
-4. Compare friction and remove unnecessary ceremony.
-5. Decide licensing and initial public governance before publication.
+2. Expand the constitutional shell section by section, adding evidence, diagrams, examples, and unresolved Challenges.
+3. Convert Project Lithos into a reference Seed.
+4. Convert one unlike project, preferably a small creative or software Seed.
+5. Compare friction and remove unnecessary ceremony.
+6. Decide licensing and initial public governance before accepting outside contributions.
 
 ## Highest risks
 

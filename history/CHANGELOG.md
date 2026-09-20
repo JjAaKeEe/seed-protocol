@@ -29,6 +29,7 @@ All notable accepted changes to Seed S-0000 are recorded here. This file is not 
 
 - The founding charter is living R&D material. Its planted state is preserved by Git, but the document may be edited and reorganized deliberately.
 - Repository state changed from private draft to public experimental; reuse licensing and contribution governance remain unresolved.
+- `seed_golden_repo.md` is an intentionally incomplete constitutional shell and primary long-form build surface, not a finished or protected charter.
 
 ### Intentionally unresolved
 

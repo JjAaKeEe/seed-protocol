@@ -14,7 +14,13 @@ This repository is both:
 
 That recursion is deliberate. The protocol must prove it can represent itself before it asks other ideas to use it.
 
-The original 147-section founding charter lives in [`seed_golden_repo.md`](seed_golden_repo.md). It is the source-of-origin and a living R&D document, not disposable scaffolding or immutable scripture. Git history preserves earlier forms while the charter, `SEED.md`, and the specification evolve for different purposes.
+The 147-section outline in [`seed_golden_repo.md`](seed_golden_repo.md) is the constitutional shell and principal long-form authoring surface. It was planted intentionally incomplete so humans and agents can populate every section, rewrite weak passages, add diagrams and charts, introduce new sections, reorganize the structure, and deepen the doctrine through R&D. Git preserves earlier forms; it does not freeze the shell.
+
+The three root documents have different jobs:
+
+- `seed_golden_repo.md` is the expanding constitution and full design corpus.
+- `SEED.md` is the concise current synthesis used for orientation.
+- `spec/seed-protocol-v0.1-draft.md` defines testable protocol behavior.
 
 ## Why this exists
 
@@ -61,7 +67,7 @@ seed-protocol/
 ├── AGENTS.md                 compatibility doorway for coding agents
 ├── BOOTSTRAP.md              deterministic orientation sequence
 ├── SEED.md                   canonical thesis and conceptual architecture
-├── seed_golden_repo.md       living founding charter / origin source
+├── seed_golden_repo.md       expandable constitutional shell and full corpus
 ├── context/                  principles, state, boundaries, questions, terms
 ├── decisions/                accepted choices and reversal conditions
 ├── challenges/               persistent attacks on the Seed

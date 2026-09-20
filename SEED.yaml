@@ -20,6 +20,7 @@
   "authority_entry": "context/authority.md",
   "provenance_entry": "history/PROVENANCE.md",
   "specification_entry": "spec/seed-protocol-v0.1-draft.md",
+  "charter_entry": "seed_golden_repo.md",
   "origin_entry": "seed_golden_repo.md",
   "source_materials": [
     "seed_golden_repo.md"

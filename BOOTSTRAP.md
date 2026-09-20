@@ -59,7 +59,7 @@ Load in this order unless the task clearly requires another path:
 | Serious objections | matching file in `challenges/` |
 | Test evidence | matching file in `experiments/` |
 | Origin and attribution | `history/PROVENANCE.md` |
-| Verbatim founding charter | `seed_golden_repo.md` |
+| Expandable constitutional shell and full corpus | `seed_golden_repo.md` |
 
 ## 6. Known enough to rely upon
 
@@ -70,7 +70,8 @@ Load in this order unless the task clearly requires another path:
 - A protocol implementation must remain readable when its preferred application is unavailable.
 - Challenge objects and reversal conditions prevent Canon from hardening into dogma.
 - Real usage should determine later ontology and platform design.
-- The founding charter remains the primary check against meaning lost during distillation.
+- The constitutional shell is intentionally incomplete and is expected to grow into the exhaustive long-form corpus.
+- Its Git history remains a check against meaning lost during rewriting or distillation.
 
 ## 7. Live hypotheses
 
