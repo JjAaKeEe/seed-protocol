@@ -1,0 +1,52 @@
+{
+  "seed_protocol": "0.1-draft",
+  "manifest_profile": "json-compatible-yaml",
+  "id": "{{SEED_ID}}",
+  "title": "{{TITLE}}",
+  "maturity": "S1",
+  "executability": "E1",
+  "status": "active",
+  "visibility": "private-draft",
+  "canonical_entry": "SEED.md",
+  "human_entry": "README.md",
+  "agent_entry": "AGENTS.md",
+  "bootstrap": "BOOTSTRAP.md",
+  "principles_entry": "context/principles.md",
+  "status_entry": "context/status.md",
+  "model_boundary_entry": "context/model-boundary.md",
+  "questions_entry": "context/questions.md",
+  "required_files": [
+    "README.md",
+    "SEED.yaml",
+    "SEED.md",
+    "BOOTSTRAP.md",
+    "context/principles.md",
+    "context/status.md",
+    "context/questions.md",
+    "context/model-boundary.md"
+  ],
+  "domains": [],
+  "epistemic_state": {
+    "concept": "initial",
+    "evidence": "unreviewed",
+    "implementation": "none"
+  },
+  "agency": {
+    "read": "autonomous",
+    "local_analysis": "autonomous",
+    "canonical_change": "review-required",
+    "external_communication": "approval-required",
+    "physical_actuation": "approval-required"
+  },
+  "license": {
+    "documentation": "UNDECIDED",
+    "software": "UNDECIDED",
+    "data": "UNDECIDED",
+    "media": "UNDECIDED"
+  },
+  "parents": [],
+  "derivatives": [],
+  "created": "{{DATE}}",
+  "updated": "{{DATE}}"
+}
+

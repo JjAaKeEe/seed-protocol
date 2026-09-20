@@ -1,0 +1,74 @@
+{
+  "seed_protocol": "0.1-draft",
+  "manifest_profile": "json-compatible-yaml",
+  "id": "seed:S-0000",
+  "title": "Seed Protocol",
+  "subtitle": "The Golden Seed — durable, human-legible, machine-bootable ideas",
+  "maturity": "S2",
+  "executability": "E1",
+  "status": "active",
+  "visibility": "private-draft",
+  "canonical_entry": "SEED.md",
+  "human_entry": "README.md",
+  "agent_entry": "AGENTS.md",
+  "bootstrap": "BOOTSTRAP.md",
+  "principles_entry": "context/principles.md",
+  "status_entry": "context/status.md",
+  "model_boundary_entry": "context/model-boundary.md",
+  "questions_entry": "context/questions.md",
+  "vocabulary_entry": "context/vocabulary.md",
+  "authority_entry": "context/authority.md",
+  "provenance_entry": "history/PROVENANCE.md",
+  "specification_entry": "spec/seed-protocol-v0.1-draft.md",
+  "origin_entry": "seed_golden_repo.md",
+  "source_materials": [
+    "seed_golden_repo.md"
+  ],
+  "required_files": [
+    "README.md",
+    "SEED.yaml",
+    "SEED.md",
+    "BOOTSTRAP.md",
+    "context/principles.md",
+    "context/status.md",
+    "context/questions.md",
+    "context/model-boundary.md"
+  ],
+  "domains": [
+    "knowledge-systems",
+    "human-ai-collaboration",
+    "research-infrastructure",
+    "open-collaboration",
+    "agent-orchestration"
+  ],
+  "epistemic_state": {
+    "thesis": "developed",
+    "protocol": "experimental",
+    "tooling": "reference-implementation",
+    "platform": "unbuilt"
+  },
+  "agency": {
+    "read": "autonomous",
+    "local_analysis": "autonomous",
+    "local_sandbox_execution": "task-dependent",
+    "canonical_change": "review-required",
+    "external_communication": "approval-required",
+    "purchasing": "approval-required",
+    "fabrication": "approval-required",
+    "physical_actuation": "approval-required"
+  },
+  "license": {
+    "documentation": "UNDECIDED",
+    "software": "UNDECIDED",
+    "data": "UNDECIDED",
+    "media": "UNDECIDED"
+  },
+  "parents": [],
+  "derivatives": [],
+  "reference_seeds": [
+    "Project Lithos (planned)"
+  ],
+  "origin": "Human-led design conversation synthesized with ChatGPT and Codex",
+  "created": "2026-09-20",
+  "updated": "2026-09-20"
+}
