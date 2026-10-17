@@ -9,4 +9,6 @@
 4. **Quests are non-scored** until C-0003 has evidence (see `ROADMAP.md`).
 
 ## Note
-The Golden Seed license posture (D-0008: Apache-2.0 / CC BY 4.0) is PENDING owner re-decision (SaaS/commercial intent) and is not finalized by this change. D-0004 supersession and a root LICENSE file are deferred until then.
+When this decision was written, the Golden Seed license posture was still pending an owner re-decision, and D-0004 supersession plus a root `LICENSE` file were deferred.
+
+That deferral ended the same day in D-0010. Spec text, the manifest format, and `tools/seed.py` are Apache-2.0. Explanatory docs stay CC BY 4.0. Decision 1 above is unchanged: template files carry no license-grant strings, and a new Seed's license fields stay `UNDECIDED`. D-0004 is superseded by D-0008 and D-0009. Lawyer review is still open. X-0001b has not been run, so no minimum Seed is established.

@@ -102,7 +102,7 @@ Be direct, charitable, and evidence-oriented. Critique ideas vigorously without 
 
 ## Rights and attribution
 
-By contributing, you agree that your contribution may be distributed under the repository’s applicable licenses: Apache-2.0 for software and CC BY 4.0 for prose, documentation, diagrams, data, and media unless explicitly stated otherwise. See [`LICENSE.md`](LICENSE.md).
+By contributing, you agree that your contribution may be distributed under the license that applies to the area you modify: Apache-2.0 for software, specification text, and the manifest format; CC BY 4.0 for explanatory prose, diagrams, and media, unless explicitly stated otherwise. Filling in your own Seed does not license that Seed to this repository; template license fields stay `UNDECIDED` until you choose. See [`LICENSE.md`](LICENSE.md).
 
 ## What success looks like
 

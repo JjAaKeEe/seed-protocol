@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+
 # Seed Protocol 0.1-draft
 
 ## Status of this document

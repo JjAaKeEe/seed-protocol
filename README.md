@@ -266,7 +266,7 @@ Read [`CONTRIBUTING.md`](CONTRIBUTING.md). GitHub Discussions, issue forms, docu
 
 ## Licensing
 
-Software and executable tooling are licensed under the Apache License 2.0. Prose, documentation, diagrams, data, and media are licensed under Creative Commons Attribution 4.0 unless an artifact says otherwise. See [`LICENSE.md`](LICENSE.md) for the mapping and attribution guidance.
+Software, specification text, and the manifest format are licensed under the Apache License 2.0 (`LICENSE`). Explanatory prose, diagrams, and media are licensed under Creative Commons Attribution 4.0 (`LICENSE-docs`) unless an artifact says otherwise. Template files carry no license-grant strings; a new Seed's license fields stay `UNDECIDED`. The field ops product is separate, proprietary, and not in this repository. See [`LICENSE.md`](LICENSE.md). Names are not licensed; the draft trademark note is [`TRADEMARK.md`](TRADEMARK.md) and needs lawyer review.
 
 ## The governing test
 

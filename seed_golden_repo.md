@@ -2652,12 +2652,13 @@ Different artifact classes may need different licenses:
 
 Seed Protocol should require clarity, not prescribe one universal license.
 
-For the S-0000 public reference repository, the initial mapping is:
+For the S-0000 public reference repository, the mapping recorded in D-0008 and refined by D-0010 is:
 
-- Apache License 2.0 for software, executable tooling, tests, and reusable code;
-- Creative Commons Attribution 4.0 International for prose, documentation, specifications, descriptive data, diagrams, and media unless an artifact declares otherwise.
+- Apache License 2.0 for software (including `tools/seed.py` and tests), normative specification text, and the manifest format;
+- Creative Commons Attribution 4.0 International for explanatory prose, diagrams, descriptive records, and media unless an artifact declares otherwise;
+- no license-grant strings on template files. A Seed created from the template keeps `UNDECIDED` license fields until its author chooses (D-0009).
 
-This is a repository Decision, not a universal protocol requirement. Hardware designs, substantial datasets, third-party assets, trademarks, private provenance, and patent-sensitive work may require different declarations or legal review.
+This is a repository Decision, not a universal protocol requirement, and it has not had lawyer review. The field ops product is separate, proprietary, and not in this repository. Hardware designs, substantial datasets, third-party assets, trademarks, private provenance, and patent-sensitive work may require different declarations or legal review. D-0004 is superseded by D-0008 and D-0009.
 
 A public Seed must not use visibility as a substitute for permission.
 

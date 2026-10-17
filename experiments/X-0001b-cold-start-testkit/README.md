@@ -1,7 +1,7 @@
 # X-0001 Cold-Start Test Kit (DRAFT v0.1, 2026-10-17)
-Status: DRAFT for Jacob. Nothing here has been run. No repo, PR, or Notion page was changed.
+Status: DRAFT. Nothing here has been run. The sections below are the 2026-10-17 draft text. The kit was added to this repository afterward. Preregistration is not frozen. This kit does not mark the Seed bootable.
 
-## Decisions (Jacob, Notion pre-read, 2026-10-17; see ../launch/JACOB_ANSWERS_2026-10-17.md)
+## Decisions (Jacob, Notion pre-read, 2026-10-17; see ../launch/JACOB_ANSWERS_2026-10-17.md, which is not in this repository)
 - DECIDED D1: "Merge Now". PR #4 is to be merged BEFORE testing (reverses the old frozen-branch assumption). The test then runs against the merged main commit (record its SHA), not 055bfff. OPEN: Jacob has not authorized the merge action itself; confirm whether PR #4 merges unchanged.
 - DECIDED D2: Spark is a protocol object, `SPARK.md` of 5 lines or fewer, as a working draft not frozen until 3 real promotions are observed.
 - DECIDED D3: minimum Seed = smallest Seed that still passes a cold start; files, time, size are tie-breakers after passing.

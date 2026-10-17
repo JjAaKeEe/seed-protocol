@@ -115,6 +115,7 @@ Questions are contribution interfaces, not a generic backlog. Difficulty uses D1
 - **Difficulty:** D3
 - **Need:** open licensing, legal review
 - **Question:** What default or combination best serves prose, code, data, hardware designs, and media?
+- **Working map, not a legal conclusion:** D-0008, D-0009, and D-0010. Spec text and schemas are Apache-2.0; explanatory docs are CC BY 4.0; template-created Seeds stay `UNDECIDED`. Lawyer review is open.
 
 ## Agency and execution
 

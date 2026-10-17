@@ -1,8 +1,10 @@
 # D-0008 — License software and knowledge separately
 
-**Status:** accepted  
+**Status:** accepted; specification mapping refined by D-0010 on 2026-10-17  
 **Date:** 2026-09-20  
 **Targets:** public contribution, reuse, Q-0042
+
+D-0010 moves normative specification text and the manifest format from the CC BY set below to Apache-2.0. Explanatory documents stay CC BY 4.0. The decision text underneath is the 2026-09-20 record.
 
 ## Context
 

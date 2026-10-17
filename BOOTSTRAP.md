@@ -17,7 +17,7 @@ The strongest future form is not merely a document. It is an initiation state fr
 - This repository is the first self-hosting reference Seed.
 - The manifest, bootstrap, context layers, decision/challenge records, minimal template, and reference CLI now exist.
 - No external compatibility claims have been validated.
-- Software is licensed under Apache-2.0; knowledge and media are licensed under CC BY 4.0 unless declared otherwise.
+- Software, normative specification text, and the manifest format are licensed under Apache-2.0. Explanatory knowledge and media are licensed under CC BY 4.0 unless declared otherwise. Template-created Seeds keep `UNDECIDED` license fields (D-0009). The field ops product is separate, proprietary, and not in this repository. Lawyer review is still open.
 - No public community or Seed Commons platform exists.
 - Project Lithos is the planned first complex external reference Seed.
 

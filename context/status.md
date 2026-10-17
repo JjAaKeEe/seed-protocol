@@ -5,7 +5,7 @@
 **Maturity:** S2 — Developed Seed  
 **Executability:** E1 — Queryable / bootable  
 **State:** active, public experimental draft  
-**Last meaningful update:** 2026-09-20
+**Last meaningful update:** 2026-10-17
 
 ## Completed in this iteration
 
@@ -21,7 +21,9 @@
 - Passed all seven reference tests, including initialization, path containment, boot routing, and portable snapshot creation.
 - Generated the first clean portable snapshot with the constitutional shell included and platform metadata excluded.
 - Added progressive human and agent entry paths, an explicit attack surface, bounded Quests, and structured public contribution forms.
-- Adopted Apache-2.0 for software and CC BY 4.0 for knowledge and media, subject to later legal review.
+- Adopted Apache-2.0 for software, specification text, and the manifest format, and CC BY 4.0 for explanatory documents, subject to later legal review (D-0008, D-0010).
+- Recorded that template-created Seeds stay `UNDECIDED` so contributed ideas do not inherit this repository's licenses (D-0009).
+- Drafted the X-0001b cold-start kit. It has not been run.
 - Completed internal Experiment X-0003 and its four-lens red team; independent timed reader testing remains open.
 - Published welcome, attack, and contribution-matching Discussions.
 
@@ -31,7 +33,8 @@
 - The file structure is provisional.
 - The protocol has not demonstrated cross-domain generality.
 - Agent bootability has only structural tests, not independent model evaluations.
-- The repository is public and has explicit reuse licenses; long-term public governance remains unresolved.
+- The repository is public and has an explicit reuse map; lawyer review and long-term public governance remain unresolved.
+- The field ops product is separate, proprietary, and not in this repository.
 - No Seed Commons product has been specified beyond conceptual direction.
 
 ## Active workfronts
@@ -61,7 +64,7 @@
 
 ## Next useful action
 
-Publish and render-check the experience-pass pull request, then run Experiment X-0001 with at least two unfamiliar agent environments. Give each only the repository and ask for a structured orientation report without revealing the original conversation.
+Freeze the X-0001b preregistration, then run that kit. It has not been run, so do not describe the Seed as bootable. The kit's referenced file `experiments/launch/JACOB_ANSWERS_2026-10-17.md` is not in this repository.
 
 ## Handoff
 

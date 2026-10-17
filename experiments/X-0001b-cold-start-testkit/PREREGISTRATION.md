@@ -2,7 +2,7 @@
 Write once. Once Jacob approves, date it and commit a copy; any later change must be logged below as an amendment, with the reason. Written before any receiver sees any material.
 Frozen on: ______ (not frozen)  Approved by: ______
 
-## Decisions carried (Jacob, 2026-10-17; verbatim answers in ../launch/JACOB_ANSWERS_2026-10-17.md)
+## Decisions carried (Jacob, 2026-10-17; verbatim answers were cited from ../launch/JACOB_ANSWERS_2026-10-17.md, which is not in this repository)
 Merge PR #4 first ("Merge Now"; test version = merged main SHA, recorded at freeze); Spark = SPARK.md of 5 lines or fewer, working draft; minimum Seed = smallest that passes a cold start; templates default UNDECIDED by decision (license line in test Seeds says so). OPEN: merge authorization, D-0004 supersede.
 
 ## Hypothesis
@@ -53,4 +53,4 @@ Report any of these plainly. A failed test is a result, not an error.
 Raw outputs, model/environment, prompt, times, file versions, graders' scores and notes, disagreements, all deviations.
 
 ## Amendments
-(none)
+- 2026-10-17: The kit was added to the repository before any receiver saw it. D-0004 was marked superseded by D-0008 and D-0009 in that landing (see those decisions). This preregistration is still not frozen. The experiment has not been run. No merged SHA is recorded here because the test has not been frozen.

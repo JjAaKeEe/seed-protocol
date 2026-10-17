@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+
 # SPARK.md: draft spec (working draft, not frozen)
 
 A Spark is the smallest capture of an idea, a protocol object. Frozen only after three real Spark-to-Seed promotions are observed (see D-0009).

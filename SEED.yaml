@@ -60,6 +60,7 @@
   },
   "license": {
     "documentation": "CC-BY-4.0",
+    "specification": "Apache-2.0",
     "software": "Apache-2.0",
     "data": "CC-BY-4.0",
     "media": "CC-BY-4.0",
@@ -72,5 +73,5 @@
   ],
   "origin": "Human-led design conversation synthesized with ChatGPT and Codex",
   "created": "2026-09-20",
-  "updated": "2026-09-20"
+  "updated": "2026-10-17"
 }
