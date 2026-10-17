@@ -1,3 +1,5 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
+
 # Seed Protocol 0.1-draft
 
 ## Status of this document
@@ -30,7 +32,7 @@ It does not define:
 
 ### 2.1 Core Seed
 
-A Core Seed is the minimum portable form. It MUST contain:
+A Core Seed is the current working structural form. The true minimum Seed is the smallest that still passes a cold start (D-0009; not yet established, see Q-0001). A Core Seed MUST contain:
 
 - `SEED.yaml`;
 - a human entry document;

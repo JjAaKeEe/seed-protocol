@@ -1,8 +1,12 @@
 # D-0004 — Keep licensing unresolved in the private draft
 
-**Status:** accepted temporarily  
+**Status:** superseded by D-0008 and D-0009 on 2026-10-17  
 **Date:** 2026-09-20  
 **Scope:** rights and publication
+
+## Supersession
+
+D-0008 chose Apache-2.0 for software and CC BY 4.0 for explanatory knowledge and media in this repository. D-0009 keeps Seeds created from `templates/` at `UNDECIDED`, so a contributed idea does not inherit those licenses. D-0010 refines the D-0008 map: spec text and the manifest format are Apache-2.0, the root `LICENSE` and `LICENSE-docs` files exist, and lawyer review is still open. The text below is the private-draft position this decision recorded. It is not the current map.
 
 ## Context
 

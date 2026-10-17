@@ -1,0 +1,25 @@
+name: Question
+description: Ask a bounded question that could improve the Seed.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: Early or conversational questions belong in Discussions. Use this form when the question should be tracked.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: State the question in one or two sentences.
+    validations: {required: true}
+  - type: textarea
+    id: importance
+    attributes:
+      label: Why it matters
+    validations: {required: true}
+  - type: input
+    id: target
+    attributes:
+      label: Related object or page
+      placeholder: Q-####, P-##, D-####, file path, or URL
+

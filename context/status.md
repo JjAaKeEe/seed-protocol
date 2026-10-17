@@ -5,7 +5,7 @@
 **Maturity:** S2 — Developed Seed  
 **Executability:** E1 — Queryable / bootable  
 **State:** active, public experimental draft  
-**Last meaningful update:** 2026-09-20
+**Last meaningful update:** 2026-10-17
 
 ## Completed in this iteration
 
@@ -19,7 +19,13 @@
 - Added automated structural tests.
 - Validated the corpus in its target repository on the external volume.
 - Passed all seven reference tests, including initialization, path containment, boot routing, and portable snapshot creation.
-- Generated the first clean portable snapshot with the founding charter included and platform metadata excluded.
+- Generated the first clean portable snapshot with the constitutional shell included and platform metadata excluded.
+- Added progressive human and agent entry paths, an explicit attack surface, bounded Quests, and structured public contribution forms.
+- Adopted Apache-2.0 for software, specification text, and the manifest format, and CC BY 4.0 for explanatory documents, subject to later legal review (D-0008, D-0010).
+- Recorded that template-created Seeds stay `UNDECIDED` so contributed ideas do not inherit this repository's licenses (D-0009).
+- Drafted the X-0001b cold-start kit. It has not been run.
+- Completed internal Experiment X-0003 and its four-lens red team; independent timed reader testing remains open.
+- Published welcome, attack, and contribution-matching Discussions.
 
 ## Current claims
 
@@ -27,16 +33,18 @@
 - The file structure is provisional.
 - The protocol has not demonstrated cross-domain generality.
 - Agent bootability has only structural tests, not independent model evaluations.
-- The repository is public, but no reuse license or public governance choice has been made.
+- The repository is public and has an explicit reuse map; lawyer review and long-term public governance remain unresolved.
+- The field ops product is separate, proprietary, and not in this repository.
 - No Seed Commons product has been specified beyond conceptual direction.
 
 ## Active workfronts
 
 1. Perform the first independent cold-start experiment.
-2. Convert Project Lithos into a reference Seed.
-3. Convert one unlike project, preferably a small creative or software Seed.
-4. Compare friction and remove unnecessary ceremony.
-5. Decide licensing and initial public governance before publication.
+2. Expand the constitutional shell section by section, adding evidence, diagrams, examples, and unresolved Challenges.
+3. Convert Project Lithos into a reference Seed.
+4. Convert one unlike project, preferably a small creative or software Seed.
+5. Compare friction and remove unnecessary ceremony.
+6. Test the dual-license explanation and decide initial public governance before mature Canon stewardship is delegated.
 
 ## Highest risks
 
@@ -50,14 +58,13 @@
 ## Blocked or awaiting human judgment
 
 - Final project and organization name.
-- Documentation and code licenses.
-- Whether and when this draft should be published.
+- Legal review of the documentation, software, data, and media license mapping.
 - Initial Canon stewardship model.
 - Selection of the non-Lithos contrast Seed.
 
 ## Next useful action
 
-Run Experiment X-0001 with at least two unfamiliar agent environments. Give each only the repository and ask for a structured orientation report. Compare their answers against the rubric without revealing the original conversation.
+Freeze the X-0001b preregistration, then run that kit. It has not been run, so do not describe the Seed as bootable. The kit's referenced file `experiments/launch/JACOB_ANSWERS_2026-10-17.md` is not in this repository.
 
 ## Handoff
 

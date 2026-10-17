@@ -1,0 +1,31 @@
+name: Challenge
+description: Attack an assumption, claim, Decision, incentive, or ontology.
+title: "[Challenge] "
+labels: ["challenge"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Target
+      placeholder: Claim, principle, Decision, model, or category
+    validations: {required: true}
+  - type: textarea
+    id: claim
+    attributes:
+      label: Attack
+      description: What is wrong, missing, or dangerously framed?
+    validations: {required: true}
+  - type: textarea
+    id: consequence
+    attributes:
+      label: Consequence if correct
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or counterexample
+  - type: textarea
+    id: test
+    attributes:
+      label: What could test or resolve this?
+

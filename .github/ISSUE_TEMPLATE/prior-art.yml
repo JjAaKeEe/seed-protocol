@@ -1,0 +1,25 @@
+name: Prior art
+description: Point to earlier work that Seed Protocol should learn from.
+title: "[Prior art] "
+labels: ["prior-art"]
+body:
+  - type: input
+    id: reference
+    attributes:
+      label: Project, practice, publication, or URL
+    validations: {required: true}
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why it is relevant
+    validations: {required: true}
+  - type: textarea
+    id: lesson
+    attributes:
+      label: What should Seed Protocol borrow, avoid, or investigate?
+    validations: {required: true}
+  - type: textarea
+    id: differences
+    attributes:
+      label: Important differences or limits
+

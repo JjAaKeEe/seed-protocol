@@ -1,0 +1,33 @@
+name: Evidence
+description: Add a source, observation, dataset, calculation, or counterexample.
+title: "[Evidence] "
+labels: ["evidence"]
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Claim or question affected
+      placeholder: Q-####, C-####, D-####, or description
+    validations: {required: true}
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Evidence type
+      options: [Primary source, Secondary source, Dataset, Field observation, Calculation, Simulation, Prototype, Expert testimony, Counterexample]
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and provenance
+      description: Link or describe it, including who produced it and when.
+    validations: {required: true}
+  - type: textarea
+    id: interpretation
+    attributes:
+      label: What it supports or weakens
+    validations: {required: true}
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations and uncertainty
+

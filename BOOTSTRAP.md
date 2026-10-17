@@ -17,7 +17,7 @@ The strongest future form is not merely a document. It is an initiation state fr
 - This repository is the first self-hosting reference Seed.
 - The manifest, bootstrap, context layers, decision/challenge records, minimal template, and reference CLI now exist.
 - No external compatibility claims have been validated.
-- No license has been selected.
+- Software, normative specification text, and the manifest format are licensed under Apache-2.0. Explanatory knowledge and media are licensed under CC BY 4.0 unless declared otherwise. Template-created Seeds keep `UNDECIDED` license fields (D-0009). The field ops product is separate, proprietary, and not in this repository. Lawyer review is still open.
 - No public community or Seed Commons platform exists.
 - Project Lithos is the planned first complex external reference Seed.
 
@@ -59,7 +59,9 @@ Load in this order unless the task clearly requires another path:
 | Serious objections | matching file in `challenges/` |
 | Test evidence | matching file in `experiments/` |
 | Origin and attribution | `history/PROVENANCE.md` |
-| Verbatim founding charter | `seed_golden_repo.md` |
+| Expandable constitutional shell and full corpus | `seed_golden_repo.md` |
+| Public reader paths and contribution | `START-HERE.md` and `CONTRIBUTING.md` |
+| License mapping | `LICENSE.md` |
 
 ## 6. Known enough to rely upon
 
@@ -70,7 +72,8 @@ Load in this order unless the task clearly requires another path:
 - A protocol implementation must remain readable when its preferred application is unavailable.
 - Challenge objects and reversal conditions prevent Canon from hardening into dogma.
 - Real usage should determine later ontology and platform design.
-- The founding charter remains the primary check against meaning lost during distillation.
+- The constitutional shell is intentionally incomplete and is expected to grow into the exhaustive long-form corpus.
+- Its Git history remains a check against meaning lost during rewriting or distillation.
 
 ## 7. Live hypotheses
 

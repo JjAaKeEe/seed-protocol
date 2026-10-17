@@ -14,14 +14,15 @@ You are entering Seed `seed:S-0000`, the project that defines Seed Protocol and 
 ## Canon and change
 
 - `SEED.md` is the canonical narrative for the present draft.
-- `seed_golden_repo.md` is the founding charter and source-of-origin. It is editable during R&D; preserve meaningful changes through Git and Decision records.
+- `seed_golden_repo.md` is the expandable constitutional shell and principal long-form authoring surface. It is intentionally incomplete and may be populated, rewritten, illustrated, reordered, split, and extended during R&D.
 - `spec/seed-protocol-v0.1-draft.md` is the normative technical draft.
 - Canon is authoritative for coordination, not immune from criticism.
 - Material changes to protocol semantics require a Decision record.
 - Serious objections to an assumption, principle, decision, or ontology require a Challenge record.
 - Workspace reasoning must not silently become Canon.
 - Preserve rejected paths and failed experiments when they prevent repeated work.
-- When a distilled rule seems ambiguous or suspiciously neat, compare it with the charter and history before changing the doctrine.
+- When a distilled rule seems ambiguous or suspiciously neat, compare it with the constitutional shell and history before changing the doctrine.
+- When a task concerns doctrine, do not limit work to commentary around the shell: develop the relevant charter sections directly and update the concise Canon or specification when their state changes.
 
 ## Working behavior
 

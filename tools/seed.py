@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 """Zero-dependency reference utility for Seed Protocol 0.1-draft.
 
 This tool validates structure, renders orientation material, initializes the

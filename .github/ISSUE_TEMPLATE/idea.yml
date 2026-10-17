@@ -1,0 +1,25 @@
+name: Idea
+description: Propose an early possibility that is not yet a Decision or Experiment.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: Explain it in plain language.
+    validations: {required: true}
+  - type: textarea
+    id: need
+    attributes:
+      label: Need or opportunity
+    validations: {required: true}
+  - type: textarea
+    id: uncertainty
+    attributes:
+      label: What is uncertain or probably wrong?
+  - type: textarea
+    id: next
+    attributes:
+      label: Smallest useful next step
+

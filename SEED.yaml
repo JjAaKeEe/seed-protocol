@@ -20,6 +20,7 @@
   "authority_entry": "context/authority.md",
   "provenance_entry": "history/PROVENANCE.md",
   "specification_entry": "spec/seed-protocol-v0.1-draft.md",
+  "charter_entry": "seed_golden_repo.md",
   "origin_entry": "seed_golden_repo.md",
   "source_materials": [
     "seed_golden_repo.md"
@@ -58,10 +59,12 @@
     "physical_actuation": "approval-required"
   },
   "license": {
-    "documentation": "UNDECIDED",
-    "software": "UNDECIDED",
-    "data": "UNDECIDED",
-    "media": "UNDECIDED"
+    "documentation": "CC-BY-4.0",
+    "specification": "Apache-2.0",
+    "software": "Apache-2.0",
+    "data": "CC-BY-4.0",
+    "media": "CC-BY-4.0",
+    "mapping": "LICENSE.md"
   },
   "parents": [],
   "derivatives": [],
@@ -70,5 +73,5 @@
   ],
   "origin": "Human-led design conversation synthesized with ChatGPT and Codex",
   "created": "2026-09-20",
-  "updated": "2026-09-20"
+  "updated": "2026-10-17"
 }
