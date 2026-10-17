@@ -3,7 +3,7 @@
 **Seed ID:** `{{SEED_ID}}`  
 **Maturity:** S1 — Seed  
 **Executability:** E1 — Queryable  
-**Status:** active private draft
+**Status:** active draft (licenses UNDECIDED by design; see D-0009)
 
 ## One-sentence Seed
 

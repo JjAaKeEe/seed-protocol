@@ -38,6 +38,7 @@
     "external_communication": "approval-required",
     "physical_actuation": "approval-required"
   },
+  "license_note": "UNDECIDED by design (D-0009): choose deliberately per Seed; get legal advice before investors or paid pilots. The Golden Seed license does not transfer.",
   "license": {
     "documentation": "UNDECIDED",
     "software": "UNDECIDED",

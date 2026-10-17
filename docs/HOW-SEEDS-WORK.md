@@ -8,7 +8,7 @@ A Spark is a raw thought worth retaining: a sentence, sketch, question, observat
 
 ## 2. Promote only when transfer matters
 
-A Spark becomes a Seed when someone wants another person or agent to continue without reconstructing the origin. The smallest useful Seed identifies the idea, its purpose, its current state, and where to begin.
+A Spark becomes a Seed when someone wants another person or agent to continue without reconstructing the origin. The smallest useful Seed (working assumption until X-0001b; the minimum is the smallest Seed that still passes a cold start, D-0009) identifies the idea, its purpose, its current state, and where to begin.
 
 ```mermaid
 flowchart LR
