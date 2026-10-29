@@ -1,0 +1,63 @@
+{
+  "seed_protocol": "0.1-draft",
+  "manifest_profile": "json-compatible-yaml",
+  "id": "seed:S-human-log",
+  "title": "Human Log",
+  "subtitle": "CoS evidence-graded Rolodex",
+  "maturity": "S1",
+  "executability": "E1",
+  "status": "active",
+  "visibility": "private-draft",
+  "canonical_entry": "SEED.md",
+  "human_entry": "README.md",
+  "agent_entry": "AGENTS.md",
+  "bootstrap": "BOOTSTRAP.md",
+  "principles_entry": "context/principles.md",
+  "status_entry": "context/status.md",
+  "model_boundary_entry": "context/model-boundary.md",
+  "questions_entry": "context/questions.md",
+  "required_files": [
+    "README.md",
+    "SEED.yaml",
+    "SEED.md",
+    "BOOTSTRAP.md",
+    "context/principles.md",
+    "context/status.md",
+    "context/questions.md",
+    "context/model-boundary.md"
+  ],
+  "domains": [
+    "chief-of-staff-operations",
+    "contact-records",
+    "evidence-graded-identity"
+  ],
+  "epistemic_state": {
+    "concept": "initial",
+    "evidence": "unreviewed",
+    "implementation": "none"
+  },
+  "agency": {
+    "read": "autonomous",
+    "local_analysis": "autonomous",
+    "research_public_lawful_sources": "autonomous",
+    "canonical_change": "review-required",
+    "external_communication": "approval-required",
+    "contacting_people": "approval-required",
+    "physical_actuation": "approval-required"
+  },
+  "license_note": "UNDECIDED by design (D-0009): choose deliberately per Seed; get legal advice before investors or paid pilots. The Golden Seed license does not transfer.",
+  "license": {
+    "documentation": "UNDECIDED",
+    "software": "UNDECIDED",
+    "data": "UNDECIDED",
+    "media": "UNDECIDED"
+  },
+  "parents": [],
+  "derivatives": [],
+  "origin": "Jacob Nelson (CoS) + Cord, 2026-10-29 — OSINT Academy / US-SOCOM Foundations training applied to chief-of-staff operations; adjacent to Rolodex, GitHub, and Seed Protocol.",
+  "source_materials": [
+    "sources/human-log-v0.1.md"
+  ],
+  "created": "2026-10-29",
+  "updated": "2026-10-29"
+}
